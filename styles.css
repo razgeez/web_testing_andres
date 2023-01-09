@@ -1,0 +1,25 @@
+* {
+    background-color: #222529;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffffec;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #2C2F33;
+    height: 50px;
+    border-radius: 15px;
+    margin: 10px 10px 30px;
+}
+.navitem {
+    background-color: #2C2F33;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+:hover.navitem {
+    background-color: #26AF89;
+    border-radius: 5px;
+}
