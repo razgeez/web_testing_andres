@@ -3,10 +3,7 @@
     font-family: 'Poppins', sans-serif;
     color: #ffffffec;
 }
-.icon{
-    height: 100%;
-    background-color: #2C2F33;
-}
+
 
 .navbar{
     display: flex;
@@ -16,6 +13,7 @@
     border-radius: 15px;
     margin: 0 10px 30px 10px;
     height: 40px;
+    overflow: hidden;
 }
 
 .navlist {
@@ -23,13 +21,14 @@
     margin: 0;
     padding: 0;
     display: flex;
+    gap: 20px;
     background-color: #2C2F33 ;
 }
 
 .navitem {
     padding: 8px 16px;
     text-decoration: none;
-    margin: 0 20px;
+    /* margin: 0 20px; lo soluciono con flex gap */
     background-color: #2C2F33 ;
 }
 :hover.navitem {
@@ -37,4 +36,10 @@
     border-radius: 5px;
 }
 
+.icon{
+    height: 100%;
+    background-color: #2C2F33;
+    display: inline;
+    float: left;
+}
 /* #2C2F33 #26AF89
