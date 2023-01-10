@@ -3,23 +3,38 @@
     font-family: 'Poppins', sans-serif;
     color: #ffffffec;
 }
+.icon{
+    height: 100%;
+    background-color: #2C2F33;
+}
 
 .navbar{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content:space-evenly;
+    padding: 10px 10px;
     background-color: #2C2F33;
-    height: 50px;
     border-radius: 15px;
-    margin: 10px 10px 30px;
+    margin: 0 10px 30px 10px;
+    height: 40px;
 }
+
+.navlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #2C2F33 ;
+}
+
 .navitem {
-    background-color: #2C2F33;
-    border-radius: 5px;
-    padding: 5px 15px;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 0 20px;
+    background-color: #2C2F33 ;
 }
 :hover.navitem {
     background-color: #26AF89;
     border-radius: 5px;
 }
+
+/* #2C2F33 #26AF89
