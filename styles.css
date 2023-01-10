@@ -2,12 +2,15 @@
     background-color: #222529;
     font-family: 'Poppins', sans-serif;
     color: #ffffffec;
+    margin: 0;
+    padding: 0;
 }
 
 
 .navbar{
     display: flex;
     justify-content:space-evenly;
+    flex-flow: row wrap;
     padding: 10px 10px;
     background-color: #2C2F33;
     border-radius: 15px;
