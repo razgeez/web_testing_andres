@@ -1,1 +1,123 @@
+* {
+    background-color: #222529;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffffec;
+    
+}
+body {
+    background-color: #3a3e43;
+    
+}
+a {
+    text-decoration: none;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;  /* 1 rem = 10px*/
+    
+}
+img {
+    max-width: 100%;
+}
+
+
+header {
+    
+}
+
+.contenedor {
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto; 
+}
+.barra {
+    border-radius: 1rem;
+    padding: .5rem;
+}
+@media (min-width: 758px) {
+    .barra {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        
+        
+    }
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 15px;
+    height: 40px; 
+    gap: 1.2rem; 
+}
+
+
+.navitem {
+    display: flex;
+    align-items: center;
+    padding: 10px 12px;
+    border-radius: 1rem;
+    transition: all 0.3s;  
+    /* margin: 0 20px; lo soluciono con flex gap */
+    
+}
+:hover.navitem {   
+    background-color: bisque;
+    color: #222529;
+    transition: all 0.1s;
+    transform: scale(1.2);
+    box-shadow: -1px 1px 24px 5px rgba(66,63,63,1);
+    -webkit-box-shadow: -1px 1px 24px 5px rgba(66,63,63,1);
+    -moz-box-shadow: -1px 1px 24px 5px rgba(66,63,63,1);   
+}
+
+.icon{
+    display: block;
+    background-color: bisque;
+    height: 50px;    
+    padding: 3px;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    margin: 10px 20px;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+}
+
+
+.busqueda {
+    display: flex;
+    position: relative;
+    background: rgb(65, 65, 65);
+    padding: 3px 16px;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    box-shadow: 9px 11px 32px -3px rgba(66,63,63,1);
+    -webkit-box-shadow: 9px 11px 32px -3px rgba(66,63,63,1);
+    -moz-box-shadow: 9px 11px 32px -3px rgba(66,63,63,1);
+}
+.barra-busqueda {
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+}
+.busqueda:hover {
+    cursor: pointer;
+}
+
+    
+
+/* #2C2F33 #26AF89
 
