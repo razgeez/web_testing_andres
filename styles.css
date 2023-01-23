@@ -1,14 +1,13 @@
 * {
     background-color: #222529;
     font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
     color: #ffffffec;
     
 }
 body {
-    background-color: #222529;
+    background-color: #3a3e43;
     
 }
 a {
@@ -42,7 +41,7 @@ header {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin: 1rem 4rem 4rem 4rem;
+        
         
         
     }
@@ -54,15 +53,10 @@ header {
     justify-content: center;
     padding: 10px;
     border-radius: 15px;
-    height: 40px;  
+    height: 40px; 
+    gap: 1.2rem; 
 }
-.navlist {
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    gap: 20px;  
-}
+
 
 .navitem {
     display: flex;
