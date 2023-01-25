@@ -1,5 +1,5 @@
 * {
-    background-color: #222529;
+    
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
@@ -7,7 +7,7 @@
     
 }
 body {
-    background-color: #3a3e43;
+    background-color: #727272;
     
 }
 a {
@@ -24,13 +24,15 @@ img {
 
 
 header {
-    
+    background-color:#222529;
 }
 
 .contenedor {
     max-width: 120rem;
-    width: 90%;
+    width: 80%;
     margin: 0 auto; 
+    
+    
 }
 .barra {
     border-radius: 1rem;
@@ -61,10 +63,11 @@ header {
 .navitem {
     display: flex;
     align-items: center;
-    padding: 10px 12px;
-    border-radius: 1rem;
+    padding: 1rem 1.2rem;
+    margin: .5rem .5rem;
+    border-radius: 3rem;
     transition: all 0.3s;  
-    /* margin: 0 20px; lo soluciono con flex gap */
+    
     
 }
 :hover.navitem {   
@@ -102,8 +105,8 @@ header {
     position: relative;
     background: rgb(65, 65, 65);
     padding: 3px 16px;
-    border-radius: 30px;
-    border: 2px solid #fff;
+    border-radius: 1rem;
+    border: 1px solid #fff;
     box-shadow: 9px 11px 32px -3px rgba(66,63,63,1);
     -webkit-box-shadow: 9px 11px 32px -3px rgba(66,63,63,1);
     -moz-box-shadow: 9px 11px 32px -3px rgba(66,63,63,1);
@@ -115,6 +118,51 @@ header {
 }
 .busqueda:hover {
     cursor: pointer;
+}
+.contenedor2 {
+    max-width: 120rem;
+    width: 80%;
+    margin: 0 auto; 
+    padding: 1rem;
+    padding-top: 20px 20px;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+}
+.img1 { 
+    border-radius: 1rem;
+    grid-column: 1 / 4; 
+    transition: all 0.3s;  
+}
+.img2 {
+    transition: all 0.3s; 
+    grid-column: 1 / 2
+}
+.img3 {
+    grid-column: 2 / 4;
+    transition: all 0.3s; 
+}
+
+
+.img1:hover {
+    transform: scale(1.01);
+}
+.img2:hover {
+    transform: scale(1.01);
+}
+.img3:hover {
+    transform: scale(1.01);
+}
+
+.footer {
+    padding: 3rem 0;
+    background-color: rgb(26, 26, 26);
+    text-align: center;
+    font-size: 1.3rem;
+    
+    
 }
 
     
