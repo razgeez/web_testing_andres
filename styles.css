@@ -82,7 +82,7 @@ header {
 
 .icon{
     display: block;
-    background-color: bisque;
+    background-color: rgb(49, 49, 49);
     height: 50px;    
     padding: 3px;
     border-radius: 50%;
@@ -175,10 +175,33 @@ header {
     padding: 3rem 0;
     background-color: rgb(26, 26, 26);
     text-align: center;
-    font-size: 1.3rem;
-    
+    font-size: 1.3rem;    
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    padding-top: 2rem;
     
 }
+.producto {
+    
+    transition: all 0.3s;
+    -webkit-box-shadow: 0px 0px 29px -4px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 29px -4px rgba(0,0,0,1);
+    box-shadow: 0px 0px 29px -4px rgba(0,0,0,1);
+    
+
+}
+.imagen-producto {
+    width: 100%;
+    
+}
+.producto:hover {
+    transform: scale(1.02);
+}
+
 
     
 
